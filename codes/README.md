@@ -41,6 +41,7 @@ codes from various sites as and when I solve them.
 - st : string manipulation
 - tr : trees (binary, segment, fenwick)
 - nt : number theory (prime, remainder, factor)
+- bf : brute force
 
 ### File extensions
 - py  : python
