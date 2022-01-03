@@ -12,6 +12,7 @@
 3. Sometimes brute-force can also work, try it once.
     - There won't be any way of optimizing time
     - Memory optimization could be a possibility
+    - They can include simple 2 loops, or sometimes even ONE-PASS with a track of max/min variables
     - check: link3
 
 ## Problem links
@@ -25,3 +26,4 @@
 
 - link3:
     - https://github.com/bmsohwinc/my-cp/blob/main/codes/lc-119-e-bf.cpp
+    - https://github.com/bmsohwinc/my-cp/blob/main/codes/lc-121-e-bf.cpp
