@@ -42,6 +42,8 @@ codes from various sites as and when I solve them.
 - tr : trees (binary, segment, fenwick)
 - nt : number theory (prime, remainder, factor)
 - bf : brute force
+- bs : binary search
+- of : integer overflow handling
 
 ### File extensions
 - py  : python
