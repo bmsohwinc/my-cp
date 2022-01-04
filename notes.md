@@ -25,6 +25,7 @@
     - https://github.com/bmsohwinc/my-cp/blob/main/codes/cf-1616a-e-cc.cpp
     - https://github.com/bmsohwinc/my-cp/blob/main/codes/cf-1616b-e-cc.cpp
     - https://github.com/bmsohwinc/my-cp/blob/main/codes/cf-1616c-e-cc-nt.cpp
+    - https://codeforces.com/contest/1619/submission/141667573
 
 - link2:
     - https://github.com/bmsohwinc/my-cp/blob/main/codes/cf-1616c-e-cc-nt.cpp
