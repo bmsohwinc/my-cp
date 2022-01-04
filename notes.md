@@ -8,6 +8,9 @@
     - Instead, use numerator-denominator approach
     - And solve equations accordingly
     - This way, we can solve problems much easily, specially when there are time constraints and Python can't be used
+    - Also while calculating **n-roots**, better use a custom **binary search** method, with proper **overflow handling**.
+        - Builtin utils might not help
+        - To check if overflow would happen, try dividing the INT_MAX by multiplicand, and check if multiplier is greater than the quotient
     - check: link2
 3. Sometimes **brute-force** can also work, try it once.
     - There won't be any way of optimizing time
@@ -19,7 +22,6 @@
     - But needs a bit of thought while fitting in the method
     - check: link4
 
-
 ## Problem links
 - link1:
     - https://github.com/bmsohwinc/my-cp/blob/main/codes/cf-1616a-e-cc.cpp
@@ -29,10 +31,12 @@
 
 - link2:
     - https://github.com/bmsohwinc/my-cp/blob/main/codes/cf-1616c-e-cc-nt.cpp
+    - https://github.com/bmsohwinc/my-cp/blob/main/codes/cf-1619b-e-bf-bs-of.cpp
 
 - link3:
     - https://github.com/bmsohwinc/my-cp/blob/main/codes/lc-119-e-bf.cpp
     - https://github.com/bmsohwinc/my-cp/blob/main/codes/lc-121-e-bf.cpp
+    - https://github.com/bmsohwinc/my-cp/blob/main/codes/cf-1619b-e-bf-bs-of.cpp
 
 - link4:
     - https://github.com/bmsohwinc/my-cp/blob/main/codes/lc-141-e-ll-2p-sf.cpp
