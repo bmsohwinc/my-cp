@@ -21,6 +21,10 @@
     - Very easily, with O(1) memory and O(n) time we can solve the questions
     - But needs a bit of thought while fitting in the method
     - check: link4
+5. Binary tree means, use recursions
+    - Preorder, postorder, inorder traversals are to be by-hearted
+    - But always know the iterative approach too (recursive ones are trivial sometimes)
+    - check: link5
 
 ## Problem links
 - link1:
@@ -41,4 +45,6 @@
 - link4:
     - https://github.com/bmsohwinc/my-cp/blob/main/codes/lc-141-e-ll-2p-sf.cpp
 
+- link5:
+    - https://leetcode.com/submissions/detail/613593886/
 
