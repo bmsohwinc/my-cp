@@ -44,6 +44,7 @@ codes from various sites as and when I solve them.
 - bf : brute force
 - bs : binary search
 - of : integer overflow handling
+- it : iterative strategy used instead of recursive in case of trees
 
 ### File extensions
 - py  : python
