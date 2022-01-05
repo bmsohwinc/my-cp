@@ -24,6 +24,7 @@
 5. Binary tree means, use recursions
     - Preorder, postorder, inorder traversals are to be by-hearted
     - But always know the iterative approach too (recursive ones are trivial sometimes)
+        - Used a stack to get the iterative approach
     - check: link5
 
 ## Problem links
@@ -47,4 +48,5 @@
 
 - link5:
     - https://leetcode.com/submissions/detail/613593886/
+    - https://github.com/bmsohwinc/my-cp/blob/main/codes/lc-144-e-bt-it.cpp
 
