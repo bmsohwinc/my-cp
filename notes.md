@@ -2,6 +2,8 @@
 1. Should evaluate all **corner cases** effectively.
     - They will hold clue in easy type problems
     - Maybe even in harder problems.
+    - **Three number problems**
+        - These are very much though oriented, but very simple
     - check: link1
 2. Handling **decimal precisions** with a fraction
     - Sometimes using decimals is hard -- leads to lot of precision errors
@@ -33,6 +35,7 @@
     - https://github.com/bmsohwinc/my-cp/blob/main/codes/cf-1616b-e-cc.cpp
     - https://github.com/bmsohwinc/my-cp/blob/main/codes/cf-1616c-e-cc-nt.cpp
     - https://codeforces.com/contest/1619/submission/141667573
+    - https://codeforces.com/problemset/problem/1622/A
 
 - link2:
     - https://github.com/bmsohwinc/my-cp/blob/main/codes/cf-1616c-e-cc-nt.cpp
