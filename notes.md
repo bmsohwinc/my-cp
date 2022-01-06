@@ -27,6 +27,8 @@
     - Preorder, postorder, inorder traversals are to be by-hearted
     - But always know the iterative approach too (recursive ones are trivial sometimes)
         - Used a stack to get the iterative approach
+        - Sometimes, stack with a last pointer will be helpful
+            - for post order, visit left continuously; Once null, push the node only if right doesn't exist or is already visited
     - check: link5
 
 ## Problem links
@@ -52,4 +54,5 @@
 - link5:
     - https://leetcode.com/submissions/detail/613593886/
     - https://github.com/bmsohwinc/my-cp/blob/main/codes/lc-144-e-bt-it.cpp
+    - https://leetcode.com/problems/binary-tree-postorder-traversal/
 
