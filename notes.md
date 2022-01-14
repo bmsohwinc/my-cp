@@ -30,6 +30,10 @@
         - Sometimes, stack with a last pointer will be helpful
             - for post order, visit left continuously; Once null, push the node only if right doesn't exist or is already visited
     - check: link5
+6. Stack optimizations
+    - Making `getMin()` run in O(1) time is a specific question in stacks
+    - Maintaining a separate `minEl` and modifying the inserted elements in stack is the trick
+        - But I don't like the trick. Seems *good-ish* for system level optimization, but not elegant for business level problems
 
 ## Problem links
 - link1:
@@ -56,3 +60,5 @@
     - https://github.com/bmsohwinc/my-cp/blob/main/codes/lc-144-e-bt-it.cpp
     - https://leetcode.com/problems/binary-tree-postorder-traversal/
 
+- link6:
+    - https://leetcode.com/submissions/detail/619495983/
