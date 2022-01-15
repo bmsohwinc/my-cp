@@ -22,6 +22,7 @@
 4. **Two pointer**, **slow pointers** are gems in linked lists and arrays
     - Very easily, with O(1) memory and O(n) time we can solve the questions
     - But needs a bit of thought while fitting in the method
+    - Also, check for **calculating length of lists** in one pass and in next pass use it for building logic
     - check: link4
 5. Binary tree means, use recursions
     - Preorder, postorder, inorder traversals are to be by-hearted
@@ -54,6 +55,7 @@
 
 - link4:
     - https://github.com/bmsohwinc/my-cp/blob/main/codes/lc-141-e-ll-2p-sf.cpp
+    - https://leetcode.com/submissions/detail/620285013/
 
 - link5:
     - https://leetcode.com/submissions/detail/613593886/
