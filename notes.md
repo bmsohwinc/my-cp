@@ -35,6 +35,11 @@
     - Making `getMin()` run in O(1) time is a specific question in stacks
     - Maintaining a separate `minEl` and modifying the inserted elements in stack is the trick
         - But I don't like the trick. Seems *good-ish* for system level optimization, but not elegant for business level problems
+    - check: link6
+7. Array and Search optimizations
+    - When array is already sorted, it could be a clue for O(n) solutions
+    - We can directly give a O(n logn) solution, but there could be a better one
+    - check: link7
 
 ## Problem links
 - link1:
@@ -64,3 +69,6 @@
 
 - link6:
     - https://leetcode.com/submissions/detail/619495983/
+
+- link7:
+    - O(n logn) https://leetcode.com/submissions/detail/620764540/ to O(n) https://leetcode.com/submissions/detail/620774983/
