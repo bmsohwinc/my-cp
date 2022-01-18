@@ -39,6 +39,7 @@
 7. Array and Search optimizations
     - When array is already sorted, it could be a clue for O(n) solutions
     - We can directly give a O(n logn) solution, but there could be a better one
+    - Another here was on searching Majority element. I had a O(n logn) solution, but using [Boyer-Moore voting algo](https://en.wikipedia.org/wiki/Boyer%E2%80%93Moore_majority_vote_algorithm)
     - check: link7
 
 ## Problem links
@@ -72,3 +73,4 @@
 
 - link7:
     - O(n logn) https://leetcode.com/submissions/detail/620764540/ to O(n) https://leetcode.com/submissions/detail/620774983/
+    - O(n logn) https://leetcode.com/submissions/detail/620943053/ to O(n) https://leetcode.com/submissions/detail/622208807/
