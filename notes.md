@@ -3,7 +3,7 @@
     - They will hold clue in easy type problems
     - Maybe even in harder problems.
     - **Three number problems**
-        - These are very much though oriented, but very simple
+        - These are very much thought oriented, but very simple
     - check: link1
 2. Handling **decimal precisions** with a fraction
     - Sometimes using decimals is hard -- leads to lot of precision errors
@@ -42,6 +42,9 @@
     - Another here was on searching Majority element. I had a O(n logn) solution, but using [Boyer-Moore voting algo](https://en.wikipedia.org/wiki/Boyer%E2%80%93Moore_majority_vote_algorithm) it can be done in O(n)
         - But can work only when majority element has count more than `floor(n / 2)`
     - check: link7
+8. Math tricks and optimizations
+    - Time can be O(n), but even memory can be optimized from O(2) to O(1)
+    - check: link8
 
 ## Problem links
 - link1:
@@ -75,3 +78,8 @@
 - link7:
     - O(n logn) https://leetcode.com/submissions/detail/620764540/ to O(n) https://leetcode.com/submissions/detail/620774983/
     - O(n logn) https://leetcode.com/submissions/detail/620943053/ to O(n) https://leetcode.com/submissions/detail/622208807/
+
+- link8:
+    - o(2) memory https://leetcode.com/submissions/detail/622221066/ to O(1) memory https://leetcode.com/submissions/detail/622253898/
+
+
