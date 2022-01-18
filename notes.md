@@ -39,7 +39,7 @@
 7. Array and Search optimizations
     - When array is already sorted, it could be a clue for O(n) solutions
     - We can directly give a O(n logn) solution, but there could be a better one
-    - Another here was on searching Majority element. I had a O(n logn) solution, but using [Boyer-Moore voting algo](https://en.wikipedia.org/wiki/Boyer%E2%80%93Moore_majority_vote_algorithm)
+    - Another here was on searching Majority element. I had a O(n logn) solution, but using [Boyer-Moore voting algo](https://en.wikipedia.org/wiki/Boyer%E2%80%93Moore_majority_vote_algorithm) it can be done in O(n)
     - check: link7
 
 ## Problem links
