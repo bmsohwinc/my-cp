@@ -48,6 +48,7 @@
 9. Bit manipulations -- **_closest to superpower. really._**
     - It's weird to understand sometimes
     - They are the subtle tricks that exist in the computation world
+    - Found this gem 💎: https://graphics.stanford.edu/~seander/bithacks.html
     - Variations
         - Finding number of set bits
         - Reversing bits
