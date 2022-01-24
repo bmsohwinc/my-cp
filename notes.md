@@ -59,7 +59,9 @@
     - They are:
         - Happy number: Check if a number reduces to `1` by repeated squared-digit summation
     - check: link10
-11. 
+11. Using hashmap
+    - Quite useful for easy-fetch, limited elements type of problems
+    - check: link11
 
 
 ## Problem links
@@ -103,6 +105,8 @@
     - Heavy memory, O(log n) time https://leetcode.com/submissions/detail/622660714/ to O(1) memory and time https://leetcode.com/problems/reverse-bits/discuss/54741/O(1)-bit-operation-C++-solution-(8ms)
 - link10:
     - https://leetcode.com/submissions/detail/624036432/
+- link11:
+    - https://leetcode.com/submissions/detail/626834815/
 
 
 
