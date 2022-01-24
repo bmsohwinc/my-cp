@@ -24,6 +24,7 @@
     - But needs a bit of thought while fitting in the method
     - Also, check for **calculating length of lists** in one pass and in next pass use it for building logic
     - Sometimes 2 pointers can be reduced to just 1 pointer also
+    - reversing linked list in iterative and recursive manners is a classic
     - check: link4
 5. Binary tree means, use recursions
     - Preorder, postorder, inorder traversals are to be by-hearted
@@ -85,6 +86,7 @@
     - https://github.com/bmsohwinc/my-cp/blob/main/codes/lc-141-e-ll-2p-sf.cpp
     - https://leetcode.com/submissions/detail/620285013/
     - 2 pointers https://leetcode.com/submissions/detail/626819663/ to 1 pointer https://leetcode.com/submissions/detail/626823855/
+    - https://leetcode.com/submissions/detail/626886225/
 
 - link5:
     - https://leetcode.com/submissions/detail/613593886/
