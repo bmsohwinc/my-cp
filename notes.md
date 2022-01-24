@@ -23,6 +23,7 @@
     - Very easily, with O(1) memory and O(n) time we can solve the questions
     - But needs a bit of thought while fitting in the method
     - Also, check for **calculating length of lists** in one pass and in next pass use it for building logic
+    - Sometimes 2 pointers can be reduced to just 1 pointer also
     - check: link4
 5. Binary tree means, use recursions
     - Preorder, postorder, inorder traversals are to be by-hearted
@@ -81,6 +82,7 @@
 - link4:
     - https://github.com/bmsohwinc/my-cp/blob/main/codes/lc-141-e-ll-2p-sf.cpp
     - https://leetcode.com/submissions/detail/620285013/
+    - 2 pointers https://leetcode.com/submissions/detail/626819663/ to 1 pointer https://leetcode.com/submissions/detail/626823855/
 
 - link5:
     - https://leetcode.com/submissions/detail/613593886/
