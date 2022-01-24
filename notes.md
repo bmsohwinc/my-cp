@@ -53,6 +53,13 @@
         - Finding number of set bits
         - Reversing bits
     - check: link9 
+10. **_VSP_** - Very Specific Problems
+    - These are ones which are not general problems. They are specifically made to analyze different approaches, analyze their Time and Space complexities, etc
+    - They are:
+        - Happy number: Check if a number reduces to `1` by repeated squared-digit summation
+    - check: link10
+11. 
+
 
 ## Problem links
 - link1:
@@ -92,7 +99,8 @@
 - link9:
     - O(log n) https://leetcode.com/submissions/detail/622688610/ to O(< log n) https://leetcode.com/submissions/detail/622692580/
     - Heavy memory, O(log n) time https://leetcode.com/submissions/detail/622660714/ to O(1) memory and time https://leetcode.com/problems/reverse-bits/discuss/54741/O(1)-bit-operation-C++-solution-(8ms)
-
+- link10:
+    - https://leetcode.com/submissions/detail/624036432/
 
 
 
