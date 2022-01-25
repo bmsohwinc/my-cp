@@ -33,10 +33,11 @@
         - Sometimes, stack with a last pointer will be helpful
             - for post order, visit left continuously; Once null, push the node only if right doesn't exist or is already visited
     - check: link5
-6. Stack optimizations
+6. Stack and Queue optimizations
     - Making `getMin()` run in O(1) time is a specific question in stacks
     - Maintaining a separate `minEl` and modifying the inserted elements in stack is the trick
         - But I don't like the trick. Seems *good-ish* for system level optimization, but not elegant for business level problems
+    - Implementing stack using queues (1 queue, 2 queues, O(n) pop + O(1) push, O(1) pop + O(n) push, etc)
     - check: link6
 7. Array and Search optimizations
     - When array is already sorted, it could be a clue for O(n) solutions
@@ -101,6 +102,7 @@
 
 - link6:
     - https://leetcode.com/submissions/detail/619495983/
+    - stk using 2 qs https://leetcode.com/submissions/detail/627574728/ to stk using 1 q https://leetcode.com/submissions/detail/627567588/
 
 - link7:
     - O(n logn) https://leetcode.com/submissions/detail/620764540/ to O(n) https://leetcode.com/submissions/detail/620774983/
