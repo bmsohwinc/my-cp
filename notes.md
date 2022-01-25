@@ -32,6 +32,9 @@
         - Used a stack to get the iterative approach
         - Sometimes, stack with a last pointer will be helpful
             - for post order, visit left continuously; Once null, push the node only if right doesn't exist or is already visited
+    - Reverse a binary tree
+        - recursive is easy
+        - iterative is also easy -- just use a queue and swap left-right pointers
     - check: link5
 6. Stack and Queue optimizations
     - Making `getMin()` run in O(1) time is a specific question in stacks
@@ -99,6 +102,7 @@
     - https://leetcode.com/submissions/detail/613593886/
     - https://github.com/bmsohwinc/my-cp/blob/main/codes/lc-144-e-bt-it.cpp
     - https://leetcode.com/problems/binary-tree-postorder-traversal/
+    - reverse binary tree: recusive https://leetcode.com/submissions/detail/627580649/ to iterative https://leetcode.com/submissions/detail/627639158/
 
 - link6:
     - https://leetcode.com/submissions/detail/619495983/
