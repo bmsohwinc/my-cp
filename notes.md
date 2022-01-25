@@ -62,6 +62,10 @@
     - check: link10
 11. Using hashmap
     - Quite useful for easy-fetch, limited elements type of problems
+    - Can have alternate solutions, where Time is more, and memory is less
+        - Ex, while checking duplicates in an array, there are 2 ways
+            a) Sort the array and in single pass detect duplicate -- O(n log n + n) time and O(1) memory
+            b) Use hashmap -- O(n) time and O(n) memory
     - check: link11
 
 
@@ -109,6 +113,7 @@
     - https://leetcode.com/submissions/detail/624036432/
 - link11:
     - https://leetcode.com/submissions/detail/626834815/
+    - https://leetcode.com/submissions/detail/627522289/
 
 
 
