@@ -67,7 +67,9 @@
             a) Sort the array and in single pass detect duplicate -- O(n log n + n) time and O(1) memory
             b) Use hashmap -- O(n) time and O(n) memory
     - check: link11
-
+12. Sliding Window is a good technique at times
+    - We can use some hashmap or some thing similar and pop out elements as we proceed thru the array to reach the answer
+    - check: link12
 
 ## Problem links
 - link1:
@@ -114,6 +116,8 @@
 - link11:
     - https://leetcode.com/submissions/detail/626834815/
     - https://leetcode.com/submissions/detail/627522289/
-
+    - https://leetcode.com/submissions/detail/627535912/
+- link12:
+    - https://leetcode.com/submissions/detail/627535912/
 
 
