@@ -63,6 +63,7 @@
     - These are ones which are not general problems. They are specifically made to analyze different approaches, analyze their Time and Space complexities, etc
     - They are:
         - Happy number: Check if a number reduces to `1` by repeated squared-digit summation
+        - Summary Ranges: Checking if continuous range of increasing numbers exist in a sorted, unq numbered array
     - check: link10
 11. Using hashmap
     - Quite useful for easy-fetch, limited elements type of problems
