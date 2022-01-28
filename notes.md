@@ -41,6 +41,7 @@
     - Maintaining a separate `minEl` and modifying the inserted elements in stack is the trick
         - But I don't like the trick. Seems *good-ish* for system level optimization, but not elegant for business level problems
     - Implementing stack using queues (1 queue, 2 queues, O(n) pop + O(1) push, O(1) pop + O(n) push, etc)
+    - Implementing queue using stacks (2 stacks is a must; But O(n) pop can be optimized to **Amortized** O(1))
     - check: link6
 7. Array and Search optimizations
     - When array is already sorted, it could be a clue for O(n) solutions
@@ -109,6 +110,7 @@
 - link6:
     - https://leetcode.com/submissions/detail/619495983/
     - stk using 2 qs https://leetcode.com/submissions/detail/627574728/ to stk using 1 q https://leetcode.com/submissions/detail/627567588/
+    - que using 2 stks O(n) https://leetcode.com/submissions/detail/629084107/ to O(1) https://leetcode.com/submissions/detail/629707742/
 
 - link7:
     - O(n logn) https://leetcode.com/submissions/detail/620764540/ to O(n) https://leetcode.com/submissions/detail/620774983/
