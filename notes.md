@@ -35,6 +35,9 @@
     - Reverse a binary tree
         - recursive is easy
         - iterative is also easy -- just use a queue and swap left-right pointers
+    - Finding common ancestors in BST
+        - Remember, it is a **BST**
+        - Means, simply checking values of root, p, q and navigating down the tree will give the ancestor
     - check: link5
 6. Stack and Queue optimizations
     - Making `getMin()` run in O(1) time is a specific question in stacks
@@ -106,6 +109,7 @@
     - https://github.com/bmsohwinc/my-cp/blob/main/codes/lc-144-e-bt-it.cpp
     - https://leetcode.com/problems/binary-tree-postorder-traversal/
     - reverse binary tree: recusive https://leetcode.com/submissions/detail/627580649/ to iterative https://leetcode.com/submissions/detail/627639158/
+    - common ancestor in bst: recursive https://leetcode.com/submissions/detail/629754783/ to iterative https://leetcode.com/submissions/detail/629756038/
 
 - link6:
     - https://leetcode.com/submissions/detail/619495983/
