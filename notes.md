@@ -25,6 +25,8 @@
     - Also, check for **calculating length of lists** in one pass and in next pass use it for building logic
     - Sometimes 2 pointers can be reduced to just 1 pointer also
     - reversing linked list in iterative and recursive manners is a classic
+    - deleting a node
+        - You can have a O(n) solution of swapping values. But, using pointers, this can be **done in O(1)**
     - check: link4
 5. Binary tree means, use recursions
     - Preorder, postorder, inorder traversals are to be by-hearted
@@ -103,6 +105,7 @@
     - https://leetcode.com/submissions/detail/620285013/
     - 2 pointers https://leetcode.com/submissions/detail/626819663/ to 1 pointer https://leetcode.com/submissions/detail/626823855/
     - https://leetcode.com/submissions/detail/626886225/
+    - delete node: O(n) https://leetcode.com/submissions/detail/630116560/ to O(1) https://leetcode.com/submissions/detail/630118316/
 
 - link5:
     - https://leetcode.com/submissions/detail/613593886/
