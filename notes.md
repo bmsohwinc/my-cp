@@ -78,6 +78,11 @@
         - Ex, while checking duplicates in an array, there are 2 ways
             a) Sort the array and in single pass detect duplicate -- O(n log n + n) time and O(1) memory
             b) Use hashmap -- O(n) time and O(n) memory
+    - Checking if 2 strings are anagrams
+        - Sorting is one technique, also using hashmap is another -- trade-offs exist between space and time
+        - Related note, there could be follow up on how unicodes could be fit into the anagram checking algo.
+            - There is this discussion on leetcode for the same: https://leetcode.com/problems/valid-anagram/discuss/66533/java-solution-hashmap-unicode-follow-up
+            - And a unicode related concept on surrogate pairs, graphemes clusters: http://www.unicode.org/reports/tr29/#Grapheme_Cluster_Boundaries
     - check: link11
 12. Sliding Window is a good technique at times
     - We can use some hashmap or some thing similar and pop out elements as we proceed thru the array to reach the answer
@@ -135,6 +140,7 @@
     - https://leetcode.com/submissions/detail/626834815/
     - https://leetcode.com/submissions/detail/627522289/
     - https://leetcode.com/submissions/detail/627535912/
+    - https://leetcode.com/submissions/detail/630980216/
 - link12:
     - https://leetcode.com/submissions/detail/627535912/
 
