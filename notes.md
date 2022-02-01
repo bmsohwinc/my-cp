@@ -57,6 +57,7 @@
     - check: link7
 8. Math tricks and optimizations
     - Time can be O(n), but even memory can be optimized from O(2) to O(1)
+    - Time optimized from O(log n) to O(1) -- these can be very specific, needing lot of math knowledge
     - check: link8
 9. Bit manipulations -- **_closest to superpower. really._**
     - It's weird to understand sometimes
@@ -132,6 +133,7 @@
 
 - link8:
     - o(2) memory https://leetcode.com/submissions/detail/622221066/ to O(1) memory https://leetcode.com/submissions/detail/622253898/
+    - O(log n) time https://leetcode.com/submissions/detail/632391482/ to O(1) time https://leetcode.com/submissions/detail/632396138/
 - link9:
     - O(log n) https://leetcode.com/submissions/detail/622688610/ to O(< log n) https://leetcode.com/submissions/detail/622692580/
     - Heavy memory, O(log n) time https://leetcode.com/submissions/detail/622660714/ to O(1) memory and time https://leetcode.com/problems/reverse-bits/discuss/54741/O(1)-bit-operation-C++-solution-(8ms)
