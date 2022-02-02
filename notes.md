@@ -69,6 +69,8 @@
         - Finding number of set bits
         - Reversing bits
         - Finding if number is power of 2
+        - Finding missing number from n distinct numbers in range 0 - n
+            - math approach can lead to int overflow. But XORing can avoid it.
     - check: link9 
 10. **_VSP_** - Very Specific Problems
     - These are ones which are not general problems. They are specifically made to analyze different approaches, analyze their Time and Space complexities, etc
@@ -140,6 +142,7 @@
 - link9:
     - O(log n) https://leetcode.com/submissions/detail/622688610/ to O(< log n) https://leetcode.com/submissions/detail/622692580/
     - Heavy memory, O(log n) time https://leetcode.com/submissions/detail/622660714/ to O(1) memory and time https://leetcode.com/problems/reverse-bits/discuss/54741/O(1)-bit-operation-C++-solution-(8ms)
+    - math approach using sum https://leetcode.com/submissions/detail/633126421/ to XOR approach: https://leetcode.com/submissions/detail/633130518/
 - link10:
     - https://leetcode.com/submissions/detail/624036432/
     - https://leetcode.com/submissions/detail/629037957/
