@@ -93,6 +93,8 @@
 12. Sliding Window is a good technique at times
     - We can use some hashmap or some thing similar and pop out elements as we proceed thru the array to reach the answer
     - check: link12
+13. Binary Search - a higly underrated tool
+    - check: link13
 
 ## Problem links
 - link1:
@@ -153,5 +155,6 @@
     - https://leetcode.com/submissions/detail/630980216/
 - link12:
     - https://leetcode.com/submissions/detail/627535912/
-
+- link13:
+    - https://leetcode.com/submissions/detail/598931410/
 
