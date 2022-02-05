@@ -80,6 +80,8 @@
     - check: link10
 11. Using hashmap
     - Quite useful for easy-fetch, limited elements type of problems
+    - Keeping double hashmaps is also useful
+        - **Check for corner cases**
     - Can have alternate solutions, where Time is more, and memory is less
         - Ex, while checking duplicates in an array, there are 2 ways
             a) Sort the array and in single pass detect duplicate -- O(n log n + n) time and O(1) memory
@@ -153,6 +155,7 @@
     - https://leetcode.com/submissions/detail/627522289/
     - https://leetcode.com/submissions/detail/627535912/
     - https://leetcode.com/submissions/detail/630980216/
+    - https://leetcode.com/submissions/detail/635041562/
 - link12:
     - https://leetcode.com/submissions/detail/627535912/
 - link13:
