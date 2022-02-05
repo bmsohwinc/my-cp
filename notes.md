@@ -60,6 +60,11 @@
 8. Math tricks and optimizations
     - Time can be O(n), but even memory can be optimized from O(2) to O(1)
     - Time optimized from O(log n) to O(1) -- these can be very specific, needing lot of math knowledge
+    - Finding if a number n is power of b -- a very sleek solution
+        - You can have the usual way of O(log_b n) solution of repeated division
+        - But there is O(1) way 😜 
+            - Get the max number with that power b less than INT_MAX
+            - Then check if n divides the max_power. **_BOOM_**
     - check: link8
 9. Bit manipulations -- **_closest to superpower. really._**
     - It's weird to understand sometimes
@@ -143,21 +148,27 @@
 - link8:
     - o(2) memory https://leetcode.com/submissions/detail/622221066/ to O(1) memory https://leetcode.com/submissions/detail/622253898/
     - O(log n) time https://leetcode.com/submissions/detail/632391482/ to O(1) time https://leetcode.com/submissions/detail/632396138/
+    - O(log n) time https://leetcode.com/submissions/detail/635042282/ to O(1) time https://leetcode.com/problems/power-of-three/solution/#fn4
+
 - link9:
     - O(log n) https://leetcode.com/submissions/detail/622688610/ to O(< log n) https://leetcode.com/submissions/detail/622692580/
     - Heavy memory, O(log n) time https://leetcode.com/submissions/detail/622660714/ to O(1) memory and time https://leetcode.com/problems/reverse-bits/discuss/54741/O(1)-bit-operation-C++-solution-(8ms)
     - math approach using sum https://leetcode.com/submissions/detail/633126421/ to XOR approach: https://leetcode.com/submissions/detail/633130518/
+
 - link10:
     - https://leetcode.com/submissions/detail/624036432/
     - https://leetcode.com/submissions/detail/629037957/
+
 - link11:
     - https://leetcode.com/submissions/detail/626834815/
     - https://leetcode.com/submissions/detail/627522289/
     - https://leetcode.com/submissions/detail/627535912/
     - https://leetcode.com/submissions/detail/630980216/
     - https://leetcode.com/submissions/detail/635041562/
+
 - link12:
     - https://leetcode.com/submissions/detail/627535912/
+
 - link13:
     - https://leetcode.com/submissions/detail/598931410/
 
