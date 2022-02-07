@@ -135,6 +135,7 @@
     - 2 pointers https://leetcode.com/submissions/detail/626819663/ to 1 pointer https://leetcode.com/submissions/detail/626823855/
     - https://leetcode.com/submissions/detail/626886225/
     - delete node: O(n) https://leetcode.com/submissions/detail/630116560/ to O(1) https://leetcode.com/submissions/detail/630118316/
+    - swapping vowels: https://leetcode.com/submissions/detail/636482499/
 
 - link5:
     - https://leetcode.com/submissions/detail/613593886/
