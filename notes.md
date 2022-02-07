@@ -6,6 +6,8 @@
         - These are very much thought oriented, but very simple
     - XOR type questions
         - seem tricky, but working with test cases, find patterns. **Patterns** give clues.
+    - finding range sums
+        - It's simply about storing prefix sums, and finally returning diff between sum values. I was thinking of Fenwick/Segment Tree (🤦)
     - check: link1
 2. Handling **decimal precisions** with a fraction
     - Sometimes using decimals is hard -- leads to lot of precision errors
@@ -116,6 +118,7 @@
     - https://codeforces.com/contest/1619/submission/141667573
     - https://codeforces.com/problemset/problem/1622/A
     - https://codeforces.com/contest/1632/submission/144872968
+    - https://leetcode.com/submissions/detail/636475866/
 
 - link2:
     - https://github.com/bmsohwinc/my-cp/blob/main/codes/cf-1616c-e-cc-nt.cpp
