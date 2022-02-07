@@ -102,6 +102,11 @@
     - check: link12
 13. Binary Search - a higly underrated tool
     - check: link13
+14. Nim Games
+    - These are mostly DP-ish problems. Sometimes, sheet pattern recognition can save time and memory
+    - check: link14
+15. 
+
 
 ## Problem links
 - link1:
@@ -172,3 +177,5 @@
 - link13:
     - https://leetcode.com/submissions/detail/598931410/
 
+- link14:
+    - https://leetcode.com/submissions/detail/636461246/
