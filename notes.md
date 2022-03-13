@@ -107,7 +107,11 @@
 14. Nim Games
     - These are mostly DP-ish problems. Sometimes, sheet pattern recognition can save time and memory
     - check: link14
-15. 
+15. Greedy algos
+    - Very stealthy. You'll never know you applied greedy until you apply and solve it.
+    - In one of the questions, there was nothing to optimize, but had to answer yes/no and a possible path if yes.
+    - check: link15
+16. 
 
 
 ## Problem links
@@ -183,3 +187,5 @@
 
 - link14:
     - https://leetcode.com/submissions/detail/636461246/
+- link15:
+    - https://codeforces.com/contest/1647/problem/C
