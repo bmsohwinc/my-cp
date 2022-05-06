@@ -5,4 +5,7 @@
 - Link: [problemset](https://codeforces.com/problemset?order=BY_RATING_ASC&tags=1000-1200)
 
 ### Patterns
-- 
+- Miss
+    - Integer overflow in corner cases
+- Hit
+    -   
