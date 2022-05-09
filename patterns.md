@@ -8,4 +8,4 @@
 - Miss
     - Integer overflow in corner cases
 - Hit
-    -   
+    - Think big. Don't overthink. It's always solveable, we just need think of a nice little solution
