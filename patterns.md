@@ -9,3 +9,5 @@
     - Integer overflow in corner cases
 - Hit
     - Think big. Don't overthink. It's always solveable, we just need think of a nice little solution
+    - `Sorting` helps in cases where you want to `greedily` optimize some parameter
+    - Never ignore something that you don't understand. **_Errors literally say that something is wrong, and you've got to catch and correct it_**
