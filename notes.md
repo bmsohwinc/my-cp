@@ -74,6 +74,7 @@
     - Found this gem 💎: https://graphics.stanford.edu/~seander/bithacks.html
     - Variations
         - Finding number of set bits
+            - Use Brian-Kernighan approach of repeatedly doing `n = n & (n - 1)`
         - Reversing bits
         - Finding if number is power of 2
         - Finding missing number from n distinct numbers in range 0 - n
