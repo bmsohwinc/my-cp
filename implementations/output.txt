@@ -1,0 +1,2 @@
+Sorted array: 1 5 10 10 22 28 36 45 47 99 
+Sorted array: 1 2 3 4 
