@@ -50,6 +50,73 @@ void inorder(struct node *root) {
     inorder(root -> right);
 }
 
+struct node* search(struct node* root, int key) {
+    while (root != NULL) {
+        if (root -> key == key) {
+            return root;
+        }
+        else if (key < root -> key) {
+            root = root -> left;
+        }
+        else {
+            root = root -> right;
+        }
+    }
+    return root;
+}
+
+void search_util(struct node *root, int search_val) {
+    struct node *s1 = search(root, search_val);
+    if (s1 == NULL) {
+        printf("Given key %2d does not exist in the BST\n", search_val);
+    } else {
+        printf("Found key: s1 -> key = %2d\n", s1 -> key);
+    }
+}
+
+void right_view(struct node *root) {
+    printf("RIGHT VIEW: ");
+    unordered_map<int, int> mp;
+    struct node *prev = NULL;
+    queue<struct node*> q;
+    q.push(root);
+
+    while(!q.empty()) {
+        struct node *curr = q.front();
+        q.pop();
+
+        if (curr == NULL) {
+            break;
+        }
+
+        int level = 0;
+        if (prev == NULL) {
+            level = 0;
+            mp[curr -> key] = 0;
+        } else {
+            level = mp[curr -> key];
+            if (mp[prev -> key] != level) {
+                printf("%2d ", prev -> key);
+            }
+        }
+
+        if (curr -> left != NULL) {
+            mp[curr -> left -> key] = level + 1;
+            q.push(curr -> left);
+        }
+
+        if (curr -> right != NULL) {
+            mp[curr -> right -> key] = level + 1;
+            q.push(curr -> right);
+        }
+
+        prev = curr;
+    }
+
+    printf("%2d ", prev -> key);
+    printf("\n");
+}
+
 void solve() {
     int n, x;
     cin >> n;
@@ -64,6 +131,14 @@ void solve() {
     printf("INORDER: ");
     inorder(root);
     cout << "\n";
+    
+    // search
+    // search_util(root, 4);
+    // search_util(root, 2);
+    // search_util(root, 10);
+
+    right_view(root);
+    
 }
 
 int main()
