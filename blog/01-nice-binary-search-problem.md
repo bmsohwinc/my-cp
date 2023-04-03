@@ -5,13 +5,13 @@
 - https://codeforces.com/problemset/problem/371/C
 
 ## Explanation
-The given data points are:
-    - Number of units of a, b, c required to prepare a burger
-    - Number of units of a, b, c you currently have
-    - Money that you currently have
-    - Price per unit of a, b, c in the shop
-The objective of the problem:
-    - Maximize the number of burgers you can prepare with the above constraints
+The given data points are:\
+    - Number of units of a, b, c required to prepare a burger\
+    - Number of units of a, b, c you currently have\
+    - Money that you currently have\
+    - Price per unit of a, b, c in the shop\
+The objective of the problem:\
+    - Maximize the number of burgers you can prepare with the above constraints\
 
 Now let's understand the approach given in the editorial: https://codeforces.com/blog/entry/9876
 
@@ -24,7 +24,4 @@ Naturally, the best way to reduce is into half, as that would help us binary sea
 If we find the cost of buying the items for this new burger value is less than or equal to the money that we have, we can store this value of burgers, and push the lower limit for burger production.\
 
 This way, we can optimally use Binary Search to estimate the optimal number of burgers to be produced given the requirement, the stock, and cost.
-
-
-
 
