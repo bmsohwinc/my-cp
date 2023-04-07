@@ -33,6 +33,17 @@ Just experimenting different methods to test which helps retain the knowledge of
             rem_array.erase(elements before element);
             generate(curr_array, rem_array);
 ```
+3. https://leetcode.com/problems/maximum-depth-of-binary-tree/
+    - binary tree
+    - max depth of a binary tree
+    - algo:
+```
+    maxDepth(node):
+        if node == null:
+            return 0
+        return 1 + max( maxDepth(node -> left), maxDepth(node -> right) );
+```
+
 
 
 
