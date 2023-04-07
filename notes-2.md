@@ -20,7 +20,21 @@ Just experimenting different methods to test which helps retain the knowledge of
             input_array.remove(it);
             generate(input_array, seed_array);
 ```
-2. 
+2. https://leetcode.com/problems/subsets/description/
+    - backtracking
+    - involves building all possible subsets in a recursive manner
+    - algo:
+```
+    generate(curr_array, rem_array):
+        res.push_back(curr_array);
+        for element in rem_array:
+            take_copies();
+            curr_array.push(element);
+            rem_array.erase(elements before element);
+            generate(curr_array, rem_array);
+```
+
+
 
 
 
