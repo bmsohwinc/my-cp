@@ -43,6 +43,39 @@ Just experimenting different methods to test which helps retain the knowledge of
             return 0
         return 1 + max( maxDepth(node -> left), maxDepth(node -> right) );
 ```
+4. https://leetcode.com/problems/binary-tree-inorder-traversal/
+    - binary tree
+    - inorder using stacks
+    - inorder using hashmaps
+    - algo:
+```
+    inorder(node):
+        stk.push(node)
+        curr = node;
+        while (curr != NULL or !stk.empty()):
+            while curr != NULL:
+                stk.push(curr -> left);
+                curr = curr -> left;
+            curr = stk.top()
+            res.push(curr)
+            curr = curr -> right
+```
+5. https://leetcode.com/problems/reverse-linked-list/
+    - linked list
+    - reverse linked list in O(N) time and in O(1) space
+    - algo:
+```
+    reverseLL(node):
+        prev = NULL
+        curr = node
+        while curr != NULL:
+            nxt = curr -> next
+            curr -> next = prev
+            prev = curr
+            curr = nxt
+```
+
+
 
 
 
