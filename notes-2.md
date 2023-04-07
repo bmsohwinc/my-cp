@@ -74,7 +74,22 @@ Just experimenting different methods to test which helps retain the knowledge of
             prev = curr
             curr = nxt
 ```
-
+6. https://leetcode.com/problems/generate-parentheses/
+    - backtrack
+    - generate all possible valid `n` pair paranthesis combinations
+    - algo:
+```
+    generate(n):
+        seed = ["()"]
+        for tgt = 2 to n:
+            new_list = []
+            for s in seed:
+                s1 = "()" + s
+                new_list.push(move_char_and_generate_uniq_strings(s1, ')'))
+                new_list.push(move_char_and_generate_uniq_strings(s1, '('))
+                seed = new_list
+        return seed
+```
 
 
 
