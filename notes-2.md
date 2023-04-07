@@ -1,5 +1,8 @@
 # Notes version 2
 Just experimenting different methods to test which helps retain the knowledge of CP the most.
+1. Solving questions from https://leetcode.com/problem-list/top-interview-questions/?sorting=W3sic29ydE9yZGVyIjoiREVTQ0VORElORyIsIm9yZGVyQnkiOiJBQ19SQVRFIn1d
+
+
 
 # Problems
 1. https://leetcode.com/problems/permutations/
