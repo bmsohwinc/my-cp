@@ -90,6 +90,18 @@ Just experimenting different methods to test which helps retain the knowledge of
                 seed = new_list
         return seed
 ```
+7. https://leetcode.com/problems/rotate-image/description/
+    - matrix
+    - rotating an image clockwise
+    - can use simple rotation, or use transpose + reversion
+    - algo:
+```
+    rotate(matrix):
+        transpose(matrix)
+        reverse(matrix)
+```
+8. 
+
 
 
 
