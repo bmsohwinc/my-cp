@@ -100,7 +100,21 @@ Just experimenting different methods to test which helps retain the knowledge of
         transpose(matrix)
         reverse(matrix)
 ```
-8. 
+8. https://leetcode.com/problems/pascals-triangle/description/
+    - implementation
+    - building pascal's triangle
+    - algo:
+```
+    pascals(n):
+        res.push({1})
+        for i b/w 2 to n:
+            get_last_row(res)
+            new_row = sum_of_adj_elements(last_row)
+            new_row.pad(1)
+            res.push(new_row)
+```
+
+
 
 
 
