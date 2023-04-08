@@ -116,7 +116,18 @@ Just experimenting different methods to test which helps retain the knowledge of
 9. https://leetcode.com/problems/single-number/
     - xor
     - finding the element that's not present twice in the array
-10. 
+10. https://leetcode.com/problems/kth-smallest-element-in-a-bst/
+    - binary search tree
+    - inorder
+    - find the Kth smallest element in a BST
+    - algo:
+```
+    find_kth(node, k):
+        ans = inorder(node, k)
+        return ans;
+```
+
+
 
 
 
