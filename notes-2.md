@@ -126,6 +126,13 @@ Just experimenting different methods to test which helps retain the knowledge of
         ans = inorder(node, k)
         return ans;
 ```
+11. https://leetcode.com/problems/fizz-buzz/
+    - basic
+    - can use `%`
+    - can use `mem writes`
+12. 
+
+
 
 
 
