@@ -113,6 +113,10 @@ Just experimenting different methods to test which helps retain the knowledge of
             new_row.pad(1)
             res.push(new_row)
 ```
+9. https://leetcode.com/problems/single-number/
+    - xor
+    - finding the element that's not present twice in the array
+10. 
 
 
 
