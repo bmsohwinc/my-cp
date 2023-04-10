@@ -158,6 +158,12 @@ Just experimenting different methods to test which helps retain the knowledge of
             prev = ans
         return prev
 ```
+15. https://codeforces.com/contest/1797/problem/B
+    - basic math
+    - read the question twice, workout the test cases twice, think of corner test cases
+        - N being odd or even
+        - N being 1 or 0
+        - N having a low limit (< 10^3)
 
 
 
