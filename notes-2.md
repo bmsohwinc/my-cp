@@ -130,7 +130,25 @@ Just experimenting different methods to test which helps retain the knowledge of
     - basic
     - can use `%`
     - can use `mem writes`
-12. 
+12. https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/
+    - binary search tree
+    - use binary search to convert sorted array to bst
+    - algo:
+```
+    build(l, h):
+        m = l + h / 2
+        x = new Node(m)
+        x -> left = build(l, m - 1)
+        x -> right = build(m + 1, h)
+        return x
+```
+13. https://leetcode.com/problems/group-anagrams/
+    - hashmap
+    - group the anagrams, using hashmap
+14. 
+
+
+
 
 
 
