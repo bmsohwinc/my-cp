@@ -145,7 +145,19 @@ Just experimenting different methods to test which helps retain the knowledge of
 13. https://leetcode.com/problems/group-anagrams/
     - hashmap
     - group the anagrams, using hashmap
-14. 
+14. https://leetcode.com/problems/house-robber/description/
+    - dynamic programming
+    - similar to fibonacci procedure
+    - algo
+```
+    solve(nums):
+        prev = nums[0]
+        for i in nums:
+            ans = max(nums[i] + pprev, prev)
+            pprev = prev
+            prev = ans
+        return prev
+```
 
 
 
