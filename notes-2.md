@@ -170,6 +170,12 @@ Just experimenting different methods to test which helps retain the knowledge of
     - methods:
         - Method 1: Do 1 pass and store counts. Do 1 more pass and check counts of each char
         - Method 2: Do 1 pass and store char <> list of idx in a map. Out of keys with 1 idx, pick the least idx
+17. https://leetcode.com/problems/game-of-life/description/
+    - conway's game of life
+    - board matrix updates
+    - methods:
+        - Method 1: Create copy of board and update
+        - Method 2: Do inplace update
 
 
 
