@@ -164,6 +164,14 @@ Just experimenting different methods to test which helps retain the knowledge of
         - N being odd or even
         - N being 1 or 0
         - N having a low limit (< 10^3)
+16. https://leetcode.com/problems/first-unique-character-in-a-string/
+    - string search
+    - get the first character that is not repeating in the string
+    - methods:
+        - Method 1: Do 1 pass and store counts. Do 1 more pass and check counts of each char
+        - Method 2: Do 1 pass and store char <> list of idx in a map. Out of keys with 1 idx, pick the least idx
+
+
 
 
 
