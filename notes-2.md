@@ -198,5 +198,23 @@ Just experimenting different methods to test which helps retain the knowledge of
                 h = idx - 1
        return arr[k]
 ```
+19. https://leetcode.com/problems/product-of-array-except-self/
+    - get product of all elements except curr element
+    - Methods:
+        - 1: Find array product and divide by current element
+        - 2: Find Prefix products, and then find Suffix products
+    - algo:
+```
+    multiply(arr, n):
+        pref[0] = 1
+        for i = 1 to n
+            pref[i] = pref[i - 1] * arr[i - 1]
+        suf = 1
+        for i = n - 1 to 0:
+            pref[i] *= suf
+            suf *= arr[i]
+        return pref
+```
+
 
 
