@@ -176,22 +176,27 @@ Just experimenting different methods to test which helps retain the knowledge of
     - methods:
         - Method 1: Create copy of board and update
         - Method 2: Do inplace update
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+18. https://leetcode.com/problems/kth-largest-element-in-an-array/
+    - find kth largest element in array in `O(N)`
+    - Methods:
+        - Sort + fetch -- O(N logN)
+        - Use Max heap with K size -- O(N logK)
+        - Use Quick Select -- O(N) avg. case. O(N^2) worst case
+        - Shuffle + Quick Select -- O(N) most cases
+    - algo
+```
+    find(arr, k):
+        l = 0
+        h = n
+        while l <= h:
+            idx = partition(arr, l, h)
+            if idx == k:
+                return arr[k]
+            if idx < k:
+                l = idx + 1
+            if idx > k:
+                h = idx - 1
+       return arr[k]
+```
 
 
