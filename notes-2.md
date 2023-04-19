@@ -215,6 +215,27 @@ Just experimenting different methods to test which helps retain the knowledge of
             suf *= arr[i]
         return pref
 ```
+20. https://leetcode.com/problems/palindrome-partitioning/
+    - backtracking
+    - methods:
+        - build all substrs and then check if each list has palindromes
+        - build substrs and check if palindrome at the same time
+    - algo:
+```
+    build(s, temp):
+        if s is empty()
+            res.push(temp)
+            return
+            
+        for i in s:
+            s1 = s.substr(0, i)
+            if not is_palindrome(s1): continue
+            
+            temp.push(s1)  // choose
+            build(s.substr(i, n), temp)  // explore
+            temp.pop(s1)  // unchoose
+```
+
 
 
 
