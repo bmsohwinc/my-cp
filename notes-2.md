@@ -238,7 +238,22 @@ Just experimenting different methods to test which helps retain the knowledge of
 21. https://leetcode.com/problems/binary-tree-level-order-traversal/
     - binary tree, bfs
     - you can reuse existing queue by storing the queue size while popping
-
+22.  https://leetcode.com/problems/top-k-frequent-elements
+    - priority queue, max heap, hash map
+    - methods:
+        - using priority queue and frequency map
+        - using frequency bucket list and frequency map
+    - algo:
+```
+    find_k_frequentists(arr):
+        freq_map = get_freq_map(arr)
+        bkt_list = list(list(n))
+        for kv in freq_map:
+            bkt_list[v].push(k)
+        for rev_itr in bkt_list:
+            res.push(rev_itr.elements)
+        return res
+```
 
 
 
