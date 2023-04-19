@@ -235,6 +235,12 @@ Just experimenting different methods to test which helps retain the knowledge of
             build(s.substr(i, n), temp)  // explore
             temp.pop(s1)  // unchoose
 ```
+21. https://leetcode.com/problems/binary-tree-level-order-traversal/
+    - binary tree, bfs
+    - you can reuse existing queue by storing the queue size while popping
+
+
+
 
 
 
