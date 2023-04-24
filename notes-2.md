@@ -264,6 +264,32 @@ Just experimenting different methods to test which helps retain the knowledge of
             ans += max(0, arr[i + 1] - arr[i])
         return ans
 ```
+24. https://leetcode.com/problems/majority-element/
+    - Boyre Moore Voting algorithm
+    - Hashmap, quick select, divide and conquer
+    - algo:
+```
+    find_majority(nums):
+        for e in nums:
+            if cnt == 0:
+                ans = e
+                cnt++
+            else:
+                if e == ans:
+                    cnt++
+                else:
+                    cnt--
+        return ans 
+```
+25. https://leetcode.com/problems/valid-anagram
+    - string match
+    - hash map
+    - matching anagrams
+
+
+
+
+
 
 
 
