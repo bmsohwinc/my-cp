@@ -254,6 +254,17 @@ Just experimenting different methods to test which helps retain the knowledge of
             res.push(rev_itr.elements)
         return res
 ```
+23. https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/
+    - greedy
+    - the delta is all you need to compute profit. It could be adjacent, or some far off value. It's the same.
+    - algo:
+```
+    find_max_profit(arr):
+        for i in arr.size():
+            ans += max(0, arr[i + 1] - arr[i])
+        return ans
+```
+
 
 
 
