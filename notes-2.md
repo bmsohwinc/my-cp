@@ -285,6 +285,12 @@ Just experimenting different methods to test which helps retain the knowledge of
     - string match
     - hash map
     - matching anagrams
+26. https://leetcode.com/problems/implement-trie-prefix-tree/
+    - implement trie
+    - using Java
+    - functions include insert, search and startsWith
+
+
 
 
 
