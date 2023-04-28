@@ -289,6 +289,9 @@ Just experimenting different methods to test which helps retain the knowledge of
     - implement trie
     - using Java
     - functions include insert, search and startsWith
+27. https://leetcode.com/problems/missing-number
+    - xors, sums
+    - O-1 space and O-n time
 
 
 
