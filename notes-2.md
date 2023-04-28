@@ -292,6 +292,17 @@ Just experimenting different methods to test which helps retain the knowledge of
 27. https://leetcode.com/problems/missing-number
     - xors, sums
     - O-1 space and O-n time
+28. https://leetcode.com/problems/unique-paths
+    - dynamic programming
+    - Also combinatorics, but that would blow up the memory
+    - algo
+```
+    num_ways(n, m):
+        for i in 1 to n:
+            for j in 1 to m:
+                dp[i][j] = dp[i - 1][j] + dp[i][j - 1]
+```
+
 
 
 
