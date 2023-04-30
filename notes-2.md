@@ -306,7 +306,7 @@ Just experimenting different methods to test which helps retain the knowledge of
     - dijkstra algorithm
     - shortest path (+ distance) from 1 node to all nodes
     - space complexity - O(N)
-    - time complexity  
+    - time complexity - O(N^2)
     - algo:
 ```
     dijkstra(src):
