@@ -302,7 +302,27 @@ Just experimenting different methods to test which helps retain the knowledge of
             for j in 1 to m:
                 dp[i][j] = dp[i - 1][j] + dp[i][j - 1]
 ```
-
+29. https://practice.geeksforgeeks.org/problems/implementing-dijkstra-set-1-adjacency-matrix/1
+    - dijkstra algorithm
+    - shortest path (+ distance) from 1 node to all nodes
+    - space complexity - O(N)
+    - time complexity  
+    - algo:
+```
+    dijkstra(src):
+        visi[n] = {0}
+        dist[n] = {INF}
+        dist[src] = 0
+        while 1:
+            get v that has visi[v] = 0 and dist[i] is minimum
+            if no such v, break
+            
+            visi[v] = 1
+            for u in adj[v]:
+                dist[u] = min(dist[u], edge_wt[u, v] + dist[u])
+        return dist
+        // Path can be obtained by setting the value of the parent node while updating dist
+```
 
 
 
