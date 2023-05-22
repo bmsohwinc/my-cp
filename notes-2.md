@@ -323,6 +323,13 @@ Just experimenting different methods to test which helps retain the knowledge of
         return dist
         // Path can be obtained by setting the value of the parent node while updating dist
 ```
+30. https://codeforces.com/contest/1829/submission/206823007
+    - DFS to find connected nodes
+    - backtracking
+    - Use global variables in function calls instead of passing 2D matrix vars
+        - Can be graph size, graph structure, graph vector, etc.
+    - Use DFS for each cell and maintain a visited array to save DFS backtracking effort
+
 
 
 
