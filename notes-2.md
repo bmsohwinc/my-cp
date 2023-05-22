@@ -329,6 +329,12 @@ Just experimenting different methods to test which helps retain the knowledge of
     - Use global variables in function calls instead of passing 2D matrix vars
         - Can be graph size, graph structure, graph vector, etc.
     - Use DFS for each cell and maintain a visited array to save DFS backtracking effort
+31. https://codeforces.com/contest/1829/submission/206831340
+    - BFS
+    - implementation
+
+
+
 
 
 
