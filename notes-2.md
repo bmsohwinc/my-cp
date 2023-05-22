@@ -1,6 +1,8 @@
 # Notes version 2
 Just experimenting different methods to test which helps retain the knowledge of CP the most.
 1. Solving questions from https://leetcode.com/problem-list/top-interview-questions/?sorting=W3sic29ydE9yZGVyIjoiREVTQ0VORElORyIsIm9yZGVyQnkiOiJBQ19SQVRFIn1d
+2. And participating in contests
+3. And upsolving contest problems
 
 
 
