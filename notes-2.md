@@ -334,8 +334,9 @@ Just experimenting different methods to test which helps retain the knowledge of
 31. https://codeforces.com/contest/1829/submission/206831340
     - BFS
     - implementation
-
-
+32. https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/
+    - quick sort partition technique (mediumish, holds O(1) memory, but time complexity is more O(n * n * n) in worst case)
+    - max heap technique (easiest, but holds O(k) memory)
 
 
 
