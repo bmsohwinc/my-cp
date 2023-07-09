@@ -1,6 +1,6 @@
 ## Common findings in the process
 1. Should evaluate all **corner cases** effectively.
-    - They will hold clue in easy type problems
+    - They will hold clues in easy type problems
     - Maybe even in harder problems.
     - **Three number problems**
         - These are very much thought oriented, but very simple
